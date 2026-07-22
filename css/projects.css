@@ -56,7 +56,15 @@ h1{
 
 .project{
 
-    margin-bottom:100px;
+    background:#181818;
+
+    border:1px solid #333;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    margin-bottom:80px;
 
 }
 
@@ -77,11 +85,13 @@ h1{
 
 .gallery{
 
-    display:flex;
-    gap:18px;
-    flex-wrap:wrap;
+    display:grid;
 
-    margin-bottom:35px;
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+
+    margin:30px 0;
 
 }
 
